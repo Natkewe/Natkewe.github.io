@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    margin: 0px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* nav bar */
+#navigation {
+    border: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    /* moved nav box forward making it raise above below element */
+    background-color: black;
+}
+
+.boxes {
+    /* ul */
+    padding: 0;
+    float: right;
+}
+
+li {
+    text-decoration: underline;
+    font-size: 22px;
+    display: inline;
+    text-align: center;
+    padding: 7px;
+    margin-right: 4px;
+}
+
+/* logo top left */
+.logo {
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* container with banner image */
+.container {
+    display: flex;
+}
+
+#flex {
+    justify-content: center;
+}
+
+/* image box */
+.box {
+    margin-top: 69px;
+}
+
+.box img {
+    width: 1200px;
+    height: 700px;
+}
+
+/* text appearing over banner image */
+.bannertext {
+    position: absolute;
+    background-color: black;
+    width: 1200px;
+    top: 330px;
+    text-align: center;
+
+}
+
+/* text appearing over image */
+.bannertext,
+h2,
+h4 {
+    color: seashell;
+    margin: 15px;
+}
+
+
+.imagetext {
+    text-align: center;
+    margin: 15px;
+}
+
+.container3 {
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.boxa {
+    height: 200px;
+    width: 300px;
+}
+
+.boxa,
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+.row1 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    width: 1000px;
+}
+
+/* locations boxes */
+
+.coffee {
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+}
+
+.teas {
+    width: 1200px;
+    height: 600px;
+}
+
+.loc-pots {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: grid;
+}
+
+.loc-pots h3,
+h4 {
+    color: seashell;
+    text-align: center;
+}
+
+
+.potty {
+    display: inline-flex;
+    position: absolute;
+    top: 1650px;
+}
+
+.loc {
+    display: inline-flex;
+    position: absolute;
+    top: 1550px;
+    text-align: center;
+}
+
+.loc h2 {
+    color: seashell;
+}
+
+/* lower text */
+
+.lower {
+    height: 200px;
+    width: 1200px;
+}
+
+footer {
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer h3,
+h5 {
+    text-align: center;
+}
